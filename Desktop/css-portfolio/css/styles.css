@@ -1,0 +1,122 @@
+/* 
+
+2C2C54 = space cadet
+
+69DC9E = medium aquamarine
+
+D8DDEF = lavender web
+
+EF8354 = mandarin
+
+AA6DA3 = pearly purple
+
+*/
+
+
+/* Global styles
+--------------------------------------------- */
+html {
+    box-sizing:border-box;
+}
+*,*:before,*:after {
+    box-sizing:inherit;
+}
+body {
+    color : #2C2C54;
+    margin:0;
+    padding:0;
+    font-family:'Montserrat', sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+}
+
+img{
+    
+    width:600px;
+}
+
+h1 {
+    font-size:100px;
+    line-height:1;
+}
+
+h2 {
+    font-size:45px;
+
+}
+
+h1,h2 {
+    font-family: 'Caveat', cursive;
+    font-weight:400;
+    margin:0;
+}
+.content-wrap {
+    width:800px;
+    margin:0 auto;
+    padding:60px 0;
+}
+
+/* Profile
+--------------------------------------------- */
+header {
+    background: #69DC9E;
+    /* color: #D8DDEF; */
+    text-align:center;
+}
+
+/* projects / portfolio
+--------------------------------------------- */
+
+.projects {
+    background: #EF8354;
+}
+
+.project-item {
+    overflow:hidden;
+    border-bottom:1px dashed #69DC9E; 
+    padding:25px 0;
+}
+.project-item img {
+    float:left;
+    margin-right:20px;
+
+}
+
+.project-item h3 {
+    margin-top:0;
+}
+
+/* work expirence
+--------------------------------------------- */
+
+.work-expirence {
+    background : #AA6DA3;
+}
+
+/* education
+--------------------------------------------- */
+
+.education {
+    background: #D8DDEF;
+}
+
+/* contact info
+--------------------------------------------- */
+.contact-list {
+    list-style-type: none;
+    padding:0;
+    display:flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding:15px;
+    display:inline-block;
+    color:yellow;
+}
+
+footer {
+    background:#2C2C54;
+    color: #D8DDEF; 
+    text-align:center;
+}
