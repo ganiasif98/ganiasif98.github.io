@@ -1,0 +1,23 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"author":"Asif Gani",
+	"description": "a project that does something awsome",
+	"keywords": [
+		"freecodecamp",
+		"test",
+		"description"
+	],
+	"version": "v12.22.1",
+	"dependencies": {
+		"express": "^4.14.0",
+		"moment": "^2.x.x"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
+}
