@@ -1,0 +1,23 @@
+.web-projects {
+  list-style-type: none;
+  padding: 0;
+}
+
+.web-projects a {
+  padding: 15px;
+  display: inline-block;
+  color: blue;
+}
+
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
